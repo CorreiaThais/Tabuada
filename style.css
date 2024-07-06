@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    padding: 20px 0;
+    text-align: center;
+}
+
+body{
+    background: rgb(133, 164, 168);
+    font: normal 15px arial;
+    color: white;
+}
+
+section{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+}
+
+input[type=button]{
+    padding: 3px 0;
+    width: 25%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+footer{
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-style: italic;
+} 
